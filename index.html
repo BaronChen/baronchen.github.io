@@ -11,16 +11,11 @@
 	<style>
 		/*Splash style*/
 		.splash {
-			display: none;
 			position: absolute;
 			top: 50%;
 			left: 50%;
 			margin-top: -64px;
 			margin-left: -64px;
-		}
-
-		[ng-cloak].splash {
-			display: block !important;
 		}
 	</style>
 
@@ -36,7 +31,9 @@
 </head>
 <body ng-app="baronCV">
 
-	
+	<div class="splash" ng-hide="topbarLoaded">
+		<img src="app/image/Preloader_5.gif" />
+	</div>
 
 	<ui-view></ui-view>
 
