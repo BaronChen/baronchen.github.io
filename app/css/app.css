@@ -67,6 +67,8 @@ a:focus {
     text-decoration: none;
     outline: 0;
 	background: transparent !important;
+	cursor: pointer; 
+	cursor: hand; 
 }
 
 a:before,
