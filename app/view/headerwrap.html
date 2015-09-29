@@ -1,6 +1,7 @@
 ﻿<div id="headerwrap" ng-controller="headerWrapController">
 	<div class="images-loaded" images-loaded-events="controller.imagesLoadedEvent" style="display: none;">
 		<img src="app/image/City_of_sydney.jpg" />
+		<img src="app/image/background.jpg" />
 	</div>
 	
 	<div class="container">
@@ -18,6 +19,6 @@
 	</div><!--/.container -->
 
 	<p class="scrolldown" ng-hide="controller.isBackgroudShowed()">
-		<a scroll-to="about"><i class="fa fa-arrow-circle-down fa-4x animated infinite bounce"></i></a>
+		<a du-smooth-scroll="about" duration="300"><i class="fa fa-arrow-circle-down fa-4x animated infinite bounce"></i></a>
 	</p>
 </div><!--/.#headerwrap -->

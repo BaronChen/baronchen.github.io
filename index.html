@@ -27,6 +27,20 @@
 			margin-top: -64px;
 			margin-left: -64px;
 		}
+
+		.splash .my-spinner {
+			position: fixed;	
+			top: 50%;
+			left: 50%;
+			margin-top: -25px;
+			margin-left: -20px;
+			color: white;
+		}
+
+		.splash .my-spinner .sk-rect {
+			background-color: white;
+		}
+
 	</style>
 
 	<link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
@@ -34,7 +48,8 @@
 	<link rel="stylesheet" href="css/animate.css/animate.min.css">
 	<link rel="stylesheet" href="css/angualar-chart.js/angular-chart.css" />
 	<link rel="stylesheet" href="app/customlib/flag-icon.min.css"/>
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/SpinKit/spinkit.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="app/css/style.min.css"/>
@@ -43,7 +58,14 @@
 <body ng-app="baronCV">
 
 	<div class="splash" ng-hide="topbarLoaded && aboutLoaded && headerwrapLoaded && skillLoaded && contactLoaded && experienceLoaded">
-		<img src="app/image/Preloader_5.gif" />
+		<!--<img src="app/image/Preloader_5.gif"/>-->
+		<div class="sk-wave my-spinner">
+			<div class="sk-rect sk-rect1"></div>
+			<div class="sk-rect sk-rect2"></div>
+			<div class="sk-rect sk-rect3"></div>
+			<div class="sk-rect sk-rect4"></div>
+			<div class="sk-rect sk-rect5"></div>
+		</div>
 	</div>
 
 	<ui-view></ui-view>
@@ -55,12 +77,12 @@
 	<script src="js/angular-route/angular-route.min.js"></script>
 	<script src="js/angular-bootstrap/ui-bootstrap.min.js"></script>
 	<script src="js/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-	<script src="js/ngSmoothScroll/angular-smooth-scroll.min.js"></script>
-	<script src="js/angular-scroll-watch/angular-scroll-watch.min.js"></script>
+	<!--<script src="js/ngSmoothScroll/angular-smooth-scroll.min.js"></script>-->
 	<script src="js/angular-ui-router/angular-ui-router.min.js"></script>
 	<script src="js/angular-resource/angular-resource.min.js"></script>
 	<script src="js/angualar-chart.js/angular-chart.min.js"></script>
-	<script src="js/angular-touch/angular-touch.min.js"></script>
+	<script src="js/angular-scroll/angular-scroll.min.js"></script>
+	<!--<script src="js/angular-touch/angular-touch.min.js"></script>-->
 	<script src="app/customlib/imagesloaded/imagesloaded.pkgd.min.js"></script>
 	<script src="app/customlib/imagesloaded/angular-images-loaded.js"></script>
 
