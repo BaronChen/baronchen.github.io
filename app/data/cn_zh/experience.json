@@ -1,10 +1,18 @@
 ﻿{
     "title": "经验 & 教育",
     "experiences": [
+         {
+            "title": "软件工程师",
+            "company": "麦格里集团, 悉尼",
+            "time": "2016年5月 - 至今",
+            "badge": "glyphicon-tag",
+            "badgeStyle": "info",
+            "description": [  ]
+        },
         {
             "title": "软件工程师",
             "company": "Class Financial System, 悉尼",
-            "time": "2014年7月 - 至今",
+            "time": "2014年7月 - 2016年5月",
             "badge": "glyphicon-file",
             "badgeStyle": "success",
             "description": [ "Class是澳大利亚SMSF软件的行业领头人。作为首个SMSF云会记与报告服务的提供者，Class坚持向市场提供创新的软件与服务。", "作为公司的一个全栈工程师，我熟悉各种前沿技术，并同时成长为一个优秀的开发人员与设计者。" ]

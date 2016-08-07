@@ -3,11 +3,19 @@
     "experiences": [
         {
             "title": "Software Engineer",
+            "company": "Macquarie Group, Sydney",
+            "time": "May 2016 - Now",
+            "badge": "glyphicon-tag",
+            "badgeStyle": "info",
+            "description": [  ]
+        },
+        {
+            "title": "Software Engineer",
             "company": "Class Financial System, Sydney",
-            "time": "Jul 2014 - Now",
+            "time": "Jul 2014 - May 2016",
             "badge": "glyphicon-file",
             "badgeStyle": "success",
-            "description": [ "Class is an Australian market leader in the SMSF finacial industry.", "Class provides the financial services sector with innovative software solutions and is the developer of the first end-to-end online SMSF administration and reporting software, Class Super and Class Investment Reporter."," As a full-stack software engineer at Class, I am familiar with various cutting-edge technologies, and brought up to be an excellent developer and designer." ]
+            "description": [ "Class is an Australian market leader in the SMSF finacial industry.", "Class provides the financial services sector with innovative software solutions and is the developer of the first end-to-end online SMSF administration and reporting software, Class Super and Class Investment Reporter.", " As a full-stack software engineer at Class, I am familiar with various cutting-edge technologies, and brought up to be an excellent developer and designer." ]
         },
         {
             "title": "Full Stack .Net Programmer",
