@@ -7,9 +7,9 @@
     },
 
     "frontEndSkill": {
-        "data": [ [ 95, 85, 75, 85, 90, 85 ] ],
-        "initData": [ [ 0, 0, 0, 0, 0, 0 ] ],
-        "labels": [ "JQuery", "Javascript", "CSS", "Html", "AngularJS", "Typescript" ]
+        "data": [ [ 95, 85, 75, 85, 90, 85, 90, 70 ] ],
+        "initData": [ [ 0, 0, 0, 0, 0, 0, 0, 0 ] ],
+        "labels": [ "JQuery", "Javascript", "CSS", "Html", "AngularJS", "Typescript", "Angular2", "React" ]
     },
 
     "databaseSkill": {
